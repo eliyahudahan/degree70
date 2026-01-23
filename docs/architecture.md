@@ -34,3 +34,10 @@ The system's foremost principle is to **support, not replace, human decision-mak
 ### 5.2 Success Metrics
 *   **Technical:** Model accuracy (MAE/RMSE), Fallback trigger rate.
 *   **Business:** Estimated reduction in collection kilometers, estimated tons of CO₂ saved.
+
+## Lessons Learned (Git/GitHub Setup):
+- SSH keys work better than HTTPS tokens for daily use
+- Always use `git branch -M main` (GitHub default is main, not master)
+- If push rejected: `git pull origin main --allow-unrelated-histories` first
+- Test SSH connection: `ssh -T git@github.com` should show "Hi username!"
+- Force push when necessary: `git push -u origin main --force` (use carefully)
