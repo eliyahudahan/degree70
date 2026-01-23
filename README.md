@@ -1,1 +1,2 @@
-# DortmundFlow - Smart Waste Management Simulator for Dortmund, Germany
+# DortmundFlow - Smart Waste Management Simulator
+## Optimizing waste collection in Dortmund using ML
